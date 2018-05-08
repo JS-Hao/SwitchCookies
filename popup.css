@@ -1,0 +1,44 @@
+/*
+* @Author: zhihaozhu
+* @Date:   2018-05-07 17:07:51
+* @Last Modified by:   zhihaozhu
+* @Last Modified time: 2018-05-08 13:31:28
+*/
+body, html, div, p, ul, li, input {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 300px;
+	background: #B0C4DE;
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.unit {
+	width: 100%;
+}
+
+.unit span {
+	display: inline-block;
+	width: 100px;
+}
+
+.name, .value {
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.name {
+	width: 80px;
+}
+
+.value {
+	width: 179px;
+}
+
+.btn {
+	float: right;
+}
